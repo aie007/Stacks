@@ -1,4 +1,4 @@
-// Nearest Greater Element to Left
+// Nearest Smaller Element to Left
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -28,7 +28,7 @@ int main() {
         }
         s.push({arr[i], i+1});
     }
-// Display the index of NSL for each element
+    // Display the index of NSL for each element
     for (int i = 0; i < v.size(); i++) {
         cout << v[i] << " ";
     } cout << endl;
